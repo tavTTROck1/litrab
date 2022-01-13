@@ -35,6 +35,8 @@ h1, h2, h3, h4, h5, h6, h7{
 	height: 100vh;
 -webkit-background-size: cover;
 	background-size: cover;
+	min-height: 820px;
+	position: relative;
 }
 
 .block_inner{
@@ -437,6 +439,10 @@ h1, h2, h3, h4, h5, h6, h7{
 
 @media (max-width: 770px){
 
+	.block{
+		min-height: 650px;
+	}
+
 	.block_suptitle{
 		font-size: 22px;
 	}
@@ -455,6 +461,8 @@ h1, h2, h3, h4, h5, h6, h7{
 }
 
 @media (max-width: 570px){
+
+
 
 	.block_suptitle{
 		font-size: 20px;
