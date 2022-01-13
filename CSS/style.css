@@ -384,6 +384,7 @@ h1, h2, h3, h4, h5, h6, h7{
 .Bot{
 	display: flex;
 	padding-bottom: 15px;
+	height: 100vh;
 }
 
 
@@ -392,12 +393,22 @@ h1, h2, h3, h4, h5, h6, h7{
 	font-weight: 700;
 	color: #4B0082;
 	text-transform: uppercase;
+	transition: color .2s linear;
+	text-decoration: none;
 
+	margin: 0 10px;
+	vertical-align: top;
+	display: inline-block;
 }
 .Bot_inner{
 	text-align: center;
 	padding: 40px;
-	background-color: #000000;	
+	background-color: #000000;
+	text-transform: uppercase;	
+}
+
+.Bot_title:hover{
+	color: #F0F8FF;
 }
 
 
