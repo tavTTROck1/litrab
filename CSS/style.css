@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, h7{
 	padding 0 15px;
 }
 
+
 .block{
 	display: flex;
 	flex-direction: column;
@@ -81,7 +82,7 @@ h1, h2, h3, h4, h5, h6, h7{
 	font-size: 30px;
 	font-weight: 700;
 	color: #fff;
-	border: 2px solid #fc0;
+	border: 2px solid #FFE4C4;
 	padding: 10px;
 }
 
@@ -404,7 +405,7 @@ h1, h2, h3, h4, h5, h6, h7{
 
 
 .copyright{
-	padding: 20px 0;
+	padding: 10px 0;
 	border-top: 1px solid #C0C0C0;
 	font-size: 14px;
 	color: #000000;
