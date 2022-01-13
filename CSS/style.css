@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6, h7{
 	right: 0;
 	z-index: 1000;
 	padding-top: 30px;
+	text-transform: uppercase;
 }
 
 .header_inner{
@@ -84,6 +85,15 @@ h1, h2, h3, h4, h5, h6, h7{
 	color: #fff;
 	border: 2px solid #FFE4C4;
 	padding: 10px;
+	transition: color .2s linear;
+	text-decoration: none;
+	margin: 0 10px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.header_logo:hover{
+	color: #00BFFF;
 }
 
 				/*навигация*/
@@ -384,7 +394,7 @@ h1, h2, h3, h4, h5, h6, h7{
 .Bot{
 	display: flex;
 	padding-bottom: 15px;
-	height: 100vh;
+
 }
 
 
@@ -403,6 +413,7 @@ h1, h2, h3, h4, h5, h6, h7{
 .Bot_inner{
 	text-align: center;
 	padding: 40px;
+	height: 100vh;
 	background-color: #000000;
 	text-transform: uppercase;	
 }
