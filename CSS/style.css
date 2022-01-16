@@ -225,7 +225,6 @@ h1, h2, h3, h4, h5, h6, h7{
 }
 
 .about_item{
-	width: 100%;
 	max-width: 500px;
 	position: relative;
 	margin: 0 30px;
@@ -277,7 +276,7 @@ h1, h2, h3, h4, h5, h6, h7{
 }
 
 .links_item{
-
+	max-width: 450px;
 	width: 50%;
 	padding: 0 50px;
 }
@@ -465,6 +464,11 @@ h1, h2, h3, h4, h5, h6, h7{
 		max-width: 410px;
 	}
 
+	.links_item{
+		max-width: 410px;
+	}
+
+}
 @media (max-width: 1230px){
 
 	.block_suptitle{
@@ -550,7 +554,7 @@ h1, h2, h3, h4, h5, h6, h7{
 
 	.about_item{
 		width: 100%;
-		max-width: 380px;
+		max-width: 300px;
 		margin-bottom: 40px;
 	}
 
@@ -628,14 +632,6 @@ h1, h2, h3, h4, h5, h6, h7{
 		margin-bottom: 10px;
 	}
 
-
-	.about_item{
-		max-width: 300px;
-	}
-
-	.about_img {
-		width: 300px;	
-	}
 
 }
 
