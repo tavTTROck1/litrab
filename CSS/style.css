@@ -227,8 +227,8 @@ h1, h2, h3, h4, h5, h6, h7{
 .about_item{
 
 	position: relative;
-	margin: 0 5px;
-	padding: 0 5px;
+	margin: 0 30px;
+	padding: 0 10px;
 	width: 33.33333%;
 }
 
@@ -454,6 +454,13 @@ h1, h2, h3, h4, h5, h6, h7{
 	color: #A52A2A;
 }
 
+@media (max-width: 1970px){
+	.about_item{
+		margin: 0 5px;
+		padding: 0 5px;
+	}
+}
+
 @media (max-width: 1230px){
 
 	.block_suptitle{
@@ -554,7 +561,6 @@ h1, h2, h3, h4, h5, h6, h7{
 	}
 
 	.services_item{
-		flex: 1 1 0;
 		padding-left: 50px;
 		padding-right: 15px;
 		padding-bottom: 5px;
@@ -605,6 +611,17 @@ h1, h2, h3, h4, h5, h6, h7{
 
 	.section_title{
 		font-size: 24px;
+	}
+
+	.services_item{
+		padding-left: 20px;
+		padding-right: 15px;
+		padding-bottom: 5px;
+	}
+
+	.services_title{
+		font-size: 14px;
+		margin-bottom: 10px;
 	}
 }
 
