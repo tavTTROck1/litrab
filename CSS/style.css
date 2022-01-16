@@ -15,7 +15,7 @@ background-color: #FFE4C4;
 margin: 20px 0;
 }
 
-h1, h2, h3, h4, h5, h6, h7{
+h1, h2, h3, h4, h5, h6, h7, h8{
 	margin: 0;
 }
 
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6, h7{
 .Bot_title{
 	font-size: 55px;
 	font-weight: 700;
-	color: #4B0082;
+	color: #FFD700;
 	text-transform: uppercase;
 	transition: color .2s linear;
 	text-decoration: none;
@@ -444,6 +444,11 @@ h1, h2, h3, h4, h5, h6, h7{
 	color: #F0F8FF;
 }
 
+.Bot_title_1{
+	color: #00FF00;
+	font-size: 55px;
+	font-weight: 700;
+}
 
 
 				/*copyright*/
