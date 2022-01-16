@@ -167,9 +167,10 @@ h1, h2, h3, h4, h5, h6, h7{
 }
 				/*reviews*/
 .reviews{
-	padding: 0 110px;
 	background-color: #FFF8DC;
-	position: relative;
+
+	padding-bottom: 200px;
+	display: flex;
 }
 
 .reviews_item{
@@ -179,7 +180,8 @@ h1, h2, h3, h4, h5, h6, h7{
 }
 
 .reviews_photo{
-	padding-top: 50px;
+	padding-left: 30px;
+	padding-top: 30px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -192,7 +194,8 @@ h1, h2, h3, h4, h5, h6, h7{
 	font-size: 25px;
 	font-style: italic;
 	font-weight: 300;
-	color: #999;	
+	color: #999;
+	
 }
 
 .reviews_author{
@@ -405,6 +408,10 @@ h1, h2, h3, h4, h5, h6, h7{
 
 				/*Bot*/
 
+.section_3{
+	padding: 10px 0;
+}
+
 .Bot{
 	display: flex;
 	padding-bottom: 15px;
@@ -430,7 +437,6 @@ h1, h2, h3, h4, h5, h6, h7{
 	text-align: center;
 	padding: 40px;
 	height: 100vh;
-	padiing-bottom: 40px;
 	
 }
 
@@ -440,6 +446,10 @@ h1, h2, h3, h4, h5, h6, h7{
 
 				/*copyright*/
 
+
+.section_3{
+	padding-top: 10px;
+}
 
 .copyright{
 	padding: 10px 0;
