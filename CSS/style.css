@@ -225,7 +225,8 @@ h1, h2, h3, h4, h5, h6, h7{
 }
 
 .about_item{
-
+	width: 100%;
+	max-width: 500px;
 	position: relative;
 	margin: 0 30px;
 	padding: 0 10px;
@@ -459,7 +460,10 @@ h1, h2, h3, h4, h5, h6, h7{
 		margin: 0 5px;
 		padding: 0 5px;
 	}
-}
+
+	.about_item{
+		max-width: 410px;
+	}
 
 @media (max-width: 1230px){
 
