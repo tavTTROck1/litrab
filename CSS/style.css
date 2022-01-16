@@ -169,6 +169,7 @@ h1, h2, h3, h4, h5, h6, h7{
 .reviews{
 	padding: 0 110px;
 	background-color: #FFF8DC;
+	position: relative;
 }
 
 .reviews_item{
@@ -183,6 +184,7 @@ h1, h2, h3, h4, h5, h6, h7{
 	top: 0;
 	left: 0;
 	z-index: 1;
+	display: block;
 }
 
 .reviews_text{
@@ -214,13 +216,16 @@ h1, h2, h3, h4, h5, h6, h7{
 .about{
 	display: flex;
 	justify-content: space-between;
-	margin: 0 -70px;
+	margin: 80px -85px 0;
+
 }
 
 .about_item{
-	width: 380px;
+
 	position: relative;
 	margin: 0 10px;
+	width: 33.33333%;
+	padding: 0 30px;
 }
 
 .about_item:hover .about_img img{
@@ -262,11 +267,14 @@ h1, h2, h3, h4, h5, h6, h7{
 .links{
 	display: flex;
 	justify-content: space-between;
-	margin: 0 -10px;
+	margin: 80px -15px 0;
+
 }
 
 .links_item{
-	width: 470px;
+
+	width: 50%;
+	padding: 0 50px;
 }
 
 .links_inner{
@@ -293,6 +301,8 @@ h1, h2, h3, h4, h5, h6, h7{
 
 .links_img img{
 	display: block;
+	max-width: 100%;
+	height: auto;
 	transition: opacity .1s linear;
 }
 
@@ -443,12 +453,14 @@ h1, h2, h3, h4, h5, h6, h7{
 @media (max-width: 1230px){
 
 	.block_suptitle{
-	font-size: 52px;
+		font-size: 52px;
 	}
 
 	.block_title{
-	font-size: 120px;
+		font-size: 120px;
 	}
+	
+
 }
 
 @media (max-width: 990px){
@@ -460,6 +472,20 @@ h1, h2, h3, h4, h5, h6, h7{
 	.block_title{
 		font-size: 80px;
 	}
+
+	.reviews_photo{
+		width: 150px;
+		height: 150px;
+	}
+
+	.reviews_text{
+		font-size: 18px;		
+	}
+
+	.reviews_item{
+		padding-left: 175px;
+	}
+
 }
 
 @media (max-width: 770px){
@@ -483,6 +509,75 @@ h1, h2, h3, h4, h5, h6, h7{
 	.section{
 		padding: 40px;
 	}
+	
+	.links{
+		justify-content: center;
+		margin-top: 50px;
+		flex-wrap: wrap;
+	}
+
+	.links_item{
+		width: 100%;
+		max-width: 410px;
+		margin-bottom: 40px;
+		
+	}
+
+	.links_item:last-child {
+		margin-bottom: 0;	
+	}
+
+	.about{
+		justify-content: center;
+		margin-top: 50px;
+		flex-wrap: wrap;
+	}
+
+	.about_item{
+		width: 100%;
+		max-width: 380px;
+		margin-bottom: 40px;
+	}
+
+	.about_item:last-child {
+		margin-bottom: 0;	
+	}
+
+
+	.services{
+		padding-bottom: 15px;
+		margin-bottom: 25px;
+	}
+
+	.services_item{
+		flex: 1 1 0;
+		padding-left: 80px;
+		padding-right: 15px;
+		padding-bottom: 5px;
+	}
+
+	.services_title{
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+
+	.reviews{
+		padding: 0 60px;
+	}
+
+	.reviews_photo{
+		position: static;
+		margin: 0 auto;
+`	}
+
+	.reviews_item{
+		padding-left: 0;
+	}
+
+	.reviews_text{
+		padding-top: 15px;		
+	}	
+
 }
 
 @media (max-width: 570px){
