@@ -451,25 +451,7 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 }
 
 
-				/*copyright*/
-
-
-.section_3{
-	padding-top: 10px;
-}
-
-.copyright{
-	padding: 10px 0;
-	border-top: 1px solid #C0C0C0;
-	font-size: 14px;
-	color: #000000;
-	text-align: center;
-	margin-top: 40px;	
-}
-
-.copyright span{
-	color: #A52A2A;
-}
+			
 
 @media (max-width: 1970px){
 	.about_item{
