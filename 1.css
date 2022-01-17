@@ -95,5 +95,8 @@
 }
 
 @media (max-width: 770px){
+  .hamburger-menu{
   visibility: visible;
+	}
+
 }
