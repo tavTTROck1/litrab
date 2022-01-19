@@ -747,9 +747,15 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 		visibility: visible;
 	}
 
+	.Bot_inner{
+		justify-content: center;
+		margin-top: 50px;
+		flex-wrap: wrap;
+	}
+
 	.Bot_ssilka{
 		width: 100%;
-		max-width: 410px;	
+		max-width: 300px	
 	}
 }
 
