@@ -319,7 +319,6 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 }
 
 .about_item{
-
 	position: relative;
 	margin: 0 30px;
 	padding: 0 10px;
@@ -531,6 +530,8 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 .Bot_inner{
 	text-align: center;
 	padding: 40px;
+	position: relative;
+
 }
 
 .Bot_title{	
@@ -622,11 +623,8 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 
 
 	.menu__box {
-		display: block;
-		position: fixed;
 		visibility: hidden;
 		width: 200px;
-
 	}
 
 	.nav{
@@ -648,9 +646,6 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 	}
 	
 
-	.block{
-		min-height: 650px;
-	}
 
 	.block_suptitle{
 		font-size: 22px;
@@ -750,12 +745,13 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 	.Bot_inner{
 		justify-content: center;
 		margin-top: 50px;
-		flex-wrap: wrap;
 	}
 
 	.Bot_ssilka{
 		width: 100%;
-		max-width: 300px	
+		max-width: 300px;
+		height: 100%;
+		max-height: 300px;	
 	}
 }
 
