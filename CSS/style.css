@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 
 .nav{
 	position: absolute;
-	right: 50px;
+	right: 40px;
 	top: 35px;	
 }
 
@@ -125,16 +125,15 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 }
 
 .menu__btn {
-  display: flex; 
-  align-items: center;  
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
-
+	display: flex; 
+	align-items: center;  
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	z-index: 1;
 }
 
 .menu__btn > span,
@@ -179,29 +178,29 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 }
 
 .menu__item {
-  display: block;
-  padding: 12px 24px;
-  color: #333;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
+	display: block;
+	padding: 12px 24px;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
 }
 .menu__item:hover {
-  background-color: #CFD8DC;
+	background-color: #CFD8DC;
 }
 
 
 #menu__toggle:checked ~ .menu__btn > span {
-  transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 #menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  transform: rotate(0);
+	top: 0;
+	transform: rotate(0);
 }
 #menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
+	top: 0;
+	transform: rotate(90deg);
 }
 			/*вылазиещиеся окно*/
 #menu__toggle:checked ~ .menu__box {
@@ -210,17 +209,19 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 }
 
 
+
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
-  transition-duration: .25s;
+	transition-duration: .25s;
 }
 .menu__box {
-  transition-duration: .25s;
+	transition-duration: .25s;
 }
 .menu__item {
-  transition-duration: .25s;
+	transition-duration: .25s;
 }
+
 
 
 
