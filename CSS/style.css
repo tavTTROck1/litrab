@@ -309,6 +309,13 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 	background-size: cover;
 }
 
+.section_text_1{
+	font-family: 'roboto';
+	font-size: 40px;
+	color: #999;
+	padding: 15px 40px;
+}
+
 .about{
 	display: flex;
 	justify-content: space-between;
@@ -555,6 +562,13 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 	font-weight: 700;
 }
 
+
+
+.Bot_ssilka img{
+	max-width: 500px;
+	width: 100%;
+}
+
 .container_1{
 	width: 100%;
 	max-width: 1230px;
@@ -667,6 +681,10 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 		font-size: 18px;
 	}
 
+	.section_text_1{
+		font-size: 24px;
+	}
+
 	.links{
 		justify-content: center;
 		margin-top: 50px;
@@ -747,11 +765,11 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 		margin-top: 50px;
 	}
 
-	.Bot_ssilka{
-		width: 100%;
+
+
+	.Bot_ssilka img{
 		max-width: 300px;
-		height: 100%;
-		max-height: 300px;	
+		width: 100%;
 	}
 }
 
