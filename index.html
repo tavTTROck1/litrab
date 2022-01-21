@@ -28,19 +28,22 @@
 							<a class="nav_link" href="#section2">Разработчики</a>
 							<a class="nav_link" href="#section3">Ссылка на бота</a>
 						</div>	
-						<div class="hamburger-menu">
-							<input id="menu__toggle" type="checkbox" />
-							<label class="menu__btn" for="menu__toggle">
-							<span onclick="menu__box.style.visibility='visible';"></span>
-							</label>
-							<ul class="menu__box" id="menu__box">
-								<li><a class="menu__item" href="#glav" onclick="menu__box.style.visibility='hidden';">Главная</a></li>
-								<li><a class="menu__item" href="#section" onclick="menu__box.style.visibility='hidden';">Litrix</a></li>
-								<li><a class="menu__item" href="#section1" onclick="menu__box.style.visibility='hidden';">Функционал</a></li>
-								<li><a class="menu__item" href="#section2" onclick="menu__box.style.visibility='hidden';">Разработчики</a></li>
-								<li><a class="menu__item" href="#section3" onclick="menu__box.style.visibility='hidden';">Ссылка на бота</a></li>
-							</ul>
-						</div>
+<div class="burger-menu">
+	<a href="" class="burger-menu_button" id="burger-menu_button">
+		<spun class="burger-menu_lines"></spun>
+	</a>
+	<nav class="burger-menu_nav">
+		<a href="#glav" class="burger-menu_link">Главная</a>
+		<a href="#section" class="burger-menu_link">Litrix</a>
+		<a href="#section1" class="burger-menu_link">Функционал</a>
+		<a href="#section2" class="burger-menu_link">Разработчики</a>
+		<a href="#section3" class="burger-menu_link">Ссылка на бота</a>
+	</nav>
+	<div class="burger-menu_overlay"></div>
+</div>
+
+
+
 					</nav>
 				</div>
 			</div>	
@@ -176,7 +179,11 @@
 		</div>
 	</section>
 
-<script src="js/scrirt.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="./js/script.js"></script>
+
+
+
 
 
 
