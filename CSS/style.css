@@ -581,7 +581,10 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 
 }
 
-			
+.copy{
+	color: white;
+	font-size: 60px;
+}			
 
 @media (max-width: 1970px){
 	.about_item{
